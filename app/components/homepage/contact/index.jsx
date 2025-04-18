@@ -30,15 +30,6 @@ function ContactSection() {
               <span className="text-[#046a38] text-xl font-bold">{personalData.email}</span>
             </p>
             <p className="text-sm md:text-xl flex items-center gap-3">
-              <IoMdCall
-                className="bg-[#6cdc2d] p-2 rounded-full hover:bg-[#16f2b3] hover:scale-110 transition-all duration-300 text-white cursor-pointer"
-                size={36}
-              />
-              <span className="text-[#046a38] text-xl font-bold">
-                {personalData.phone}
-              </span>
-            </p>
-            <p className="text-sm md:text-xl flex items-center gap-3">
               <CiLocationOn
                  className="bg-[#BF211E] p-2 rounded-full hover:bg-[#16f2b3] hover:scale-110 transition-all duration-300 text-white cursor-pointer"
                 size={36}
@@ -70,12 +61,6 @@ function ContactSection() {
             <Link target="_blank" href={personalData.stackOverflow}>
               <FaStackOverflow
                  className="bg-[#F48024] p-3 rounded-full hover:bg-[#16f2b3] hover:scale-110 transition-all duration-300 text-white cursor-pointer"
-                size={48}
-              />
-            </Link>
-            <Link target="_blank" href={personalData.facebook}>
-              <FaFacebook
-                className="bg-[#1877F2] p-3 rounded-full hover:bg-[#16f2b3] hover:scale-110 transition-all duration-300 text-white cursor-pointer"
                 size={48}
               />
             </Link>

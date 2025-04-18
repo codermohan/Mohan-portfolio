@@ -25,7 +25,7 @@ function ExpCard({ exp }) {
         height={50}       // Image size height
         className="rounded-full"  // Optional: makes the logo circular
       />
-      <p className="text-center ml-3 text-[#16f2b3] text-base lg:text-xl">
+      <p className="text-center ml-3 text-[#fff] text-base lg:text-xl">
         {exp.company}
       </p>
     </div>

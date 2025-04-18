@@ -1,21 +1,21 @@
-"use client"; // Add this for useState hooks to work properly
+"use client";
 
 import React from 'react';
 
 const VideoCarousel = ({ videosData }) => {
   const handleWatchNow = (url) => {
-    window.open(url, '_blank'); // Open the video URL in a new tab
+    window.open(url, '_blank');
   };
 
   return (
     <div className="pt-24">
-      {/* Wrapper for scrolling horizontally */}
-      <div className="flex overflow-x-auto space-x-6 pb-6 justify-center">
+      {/* Modified wrapper for consistent video card display */}
+      <div className="flex overflow-x-auto gap-6 pb-6 px-6">
         {videosData.map((video, index) => (
           <div
             key={index}
-            className="video-card flex-none bg-black text-white rounded-lg shadow-xl transition-all duration-300 ease-in-out transform hover:scale-105 hover:shadow-2xl"
-            style={{ width: '320px' }} // Set the width for each card
+            className="video-card flex-shrink-0 bg-black text-white rounded-lg shadow-xl transition-all duration-300 ease-in-out transform hover:scale-105 hover:shadow-2xl"
+            style={{ width: '320px', minWidth: '320px' }} // Added minWidth for consistency
           >
             <div className="relative overflow-hidden rounded-t-lg">
               <iframe

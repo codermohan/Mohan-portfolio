@@ -35,5 +35,16 @@ export const experiences = [
     image: '/png/lanet.jpeg',
     description: 'Designed and built a ridesharing application using React Native and TypeScript, integrating AWS services like Amplify, CloudWatch, and Pinpoint for efficient data management. Developed a restaurant application with real-time order tracking, interactive menus, and multilingual support, reducing order processing time by 30%.'
   },
+   {
+    id: 5,
+    title: "Software Intern",
+    company: "Mokshit Infotech",
+    duration: "(May 2020 - Dec 2020)",
+    tools: ["React Native", "Node.js", "TypeScript", "Azure Services"],
+    image: '/png/mokshit.jpeg',
+    description: [
+      "Developed and maintained a cross-platform mobile application using React Native, seamlessly integrating Azure services to support and manage over 10,000 daily active users. Optimized server-side APIs with Node.js and TypeScript, reducing response times by 30% and enabling efficient data handling."
+    ]
+  } 
 ]
 
