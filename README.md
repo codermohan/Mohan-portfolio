@@ -2,7 +2,7 @@
 
 ## View live preview [here](https://nehanooka.netlify.app/)
 
-![](./public/image/screen.gif)
+![](./public/image/screen.mov)
 
 ---
 
