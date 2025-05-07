@@ -9,6 +9,7 @@ export const personalData = {
   address: "Valparaiso, IN, USA (Open to relocation)",
   github: "https://github.com/codermohan",
   linkedIn: "https://www.linkedin.com/in/mohannamburi/",
-  devUsername: "codermohan",
   resume: "https://drive.google.com/file/d/1GDZSY-N7uf0Pxn1u5_teWsfieH0W1r_S/view?usp=drive_link"
+  /*devUsername: "codermohan",*/
+  
 }
