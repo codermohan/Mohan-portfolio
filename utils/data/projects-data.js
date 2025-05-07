@@ -1,43 +1,31 @@
 export const projectsData = [
     {
         id: 1,
-        name: 'Cab Around',
-        tools: ['React Native', 'GraphQL', 'AWS', 'AWS Amplify', 'AWS S3', 'AWS CloudWatch'],
-        role: "Software Engineer",
-        code: '',
-        demo: 'https://youtube.com/playlist?list=PLQePrdBWxlsXQREK6iZuaEPGVOKFoVBWh&si=GTli4NfW1-7ZAo7y',
-        description: 'Engineered a dual ridesharing app using React Native, GraphQL, and AWS services, achieving 99.5% uptime. Key features include vehicle-type booking, real-time driver updates, seamless payments, a chatbot boosting engagement by 15%, trip histories, and saved locations for 25% quicker bookings.'
+        name: 'Coptic Care & Carerescilience Websites Development',
+        tools: ['Wix', 'AI Tools', 'ChatGPT', 'Wordtune', 'SEO', 'Web Development'],
+        role: "Web Developer",
+        code: '', // You can add a code repository link here if available
+        demo: '', // You can add a demo link here if available
+        description: 'Managed the front-end development of the Coptic Care website using Wix, adding multilingual support and appointment booking, increasing scheduling by 40%. Leveraged AI tools such as ChatGPT and Wordtune to create SEO-optimized content, boosting organic traffic by 35%.'
     },
     {
         id: 2,
-        name: 'Digi Mart',
-        tools: ['Java', 'MVC Architecture', 'HTML5', 'CSS3', 'JavaScript', 'Docker', 'Kubernetes', 'AWS'],
-        role: "Software Engineer",
-        code: '',
-        demo: '',
-        description: 'Designed, developed, and deployed an e-commerce website with secure payment gateway integration, utilizing Java, MVC architecture, HTML5, CSS3, JavaScript, and third-party APIs. Containerized the application using Docker and deployed on a Kubernetes cluster for improved scalability and reliability.'
-
+        name: 'Visualize Netflix Data using Amazon QuickSight',
+        tools: ['Amazon QuickSight', 'Data Analysis', 'AWS Athena', 'DynamoDB', 'REST API', 'CloudWatch Metrics'],
+        role: "Data Analyst",
+        code: '', // You can add a code repository link here if available
+        demo: '', // You can add a demo link here if available
+        description: 'Analyzed and visualized Netflix\'s dataset using Amazon QuickSight to create interactive dashboards. Highlighted key content trends and viewer preferences to provide actionable insights. Improved decision-making efficiency for stakeholders by 25% through data-driven insights.'
     },
     {
         id: 3,
-        name: 'Smart Personal Finance Assistant',
-        tools: ['Python', 'React.js','AWS','JavaScript', 'Machine Learning', 'Predictive Analytics', 'Pandas'],
-        role: "Software Engineer",
-        code: '',
-        demo: '',
-        description: 'Developed a personal finance assistant using Python and React.js that helps users manage their expenses and savings through predictive analytics and personalized insights, resulting in a 25% increase in savings over six months. Created a machine learning model leveraging historical spending data to categorize transactions and forecast monthly budgets with 90% accuracy.'
-
-    },
-    {
-        id: 4,
-        name: "Flow - Travel Assistant",
-        tools: ["React Native", "Axios", "OpenAI API", "JavaScript", "Node.js"],
-        role: "Software Engineer",
-        code: "",
-        demo: "",
-        description: "Developed a  travel assistant mobile app using React Native that provides personalized travel recommendations and real-time assistance to users. Integrated OpenAI API to enable natural language processing for user queries, resulting in 40% more efficient trip planning."
+        name: 'Build Chatbots using Amazon Lex',
+        tools: ['Amazon Lex', 'AWS Lambda', 'AI', 'Chatbot Development'],
+        role: "AI Developer",
+        code: '', // You can add a code repository link here if available
+        demo: '', // You can add a demo link here if available
+        description: 'Created intelligent chatbots using Amazon Lex and AWS Lambda, boosting user engagement by 40%. Unified AI capabilities to enhance user interaction, improving user experience by 25% and increasing engagement by 20%.'
     }
-    
 ];
 
 // Do not remove any property.
@@ -51,4 +39,5 @@ export const projectsData = [
 //     role: '',
 //     code: '',
 //     demo: '',
+//     description: '',
 // },

@@ -10,9 +10,9 @@ import "./css/globals.scss";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Portfolio of Neha Nooka- Software Developer",
+  title: "Portfolio of Mohan Venkata Krishna Namburi - Software Engineer/DevOps Engineer",
   description:
-    "This is the portfolio of Neha Nooka. I am a full stack developer and a self taught developer. I love to learn new things and I am always open to collaborating with others. I am a quick learner and I am always looking for new challenges.",
+    "This is the portfolio of Mohan Venkata Krishna Namburi. I’m a passionate engineer who loves learning new things and taking on new challenges. I’m always open to collaboration and enjoy building meaningful tech that makes a difference.",
 };
 
 export default function RootLayout({ children }) {

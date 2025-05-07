@@ -31,7 +31,7 @@ function AboutSection() {
             src={personalData.profile}
             width={370}
             height={300}
-            alt="Neha Nooka"
+            alt="Mohan Venkata Krishna Namburi"
             className="rounded-lg transition-all duration-1000 hover:scale-110 cursor-pointer"
           />
         </div>
