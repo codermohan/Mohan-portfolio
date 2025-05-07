@@ -58,15 +58,12 @@ function ExpCard({ exp }) {
             <span className="text-white">tools:</span>
             <span className="text-gray-400">{` ['`}</span>
             {
-              exp.tools.map((tag, i) => (
-                <React.Fragment key={i}>
-                  <span className="text-amber-300">{tag}</span>
-                  {
-                    exp.tools?.length - 1 !== i &&
-                    <span className="text-gray-400">{`', '`}</span>
-                  }
-                </React.Fragment>
-              ))
+              exp.tools && Array.isArray(exp.tools) && exp.tools.map((tag, i) => (
+			<React.Fragment key={i}>
+			<span className="text-amber-300">{tag}</span>
+			{i < exp.tools.length - 1 && <span className="text-gray-400">, </span>}
+			</React.Fragment>
+			))
             }
             <span className="text-gray-400">{"],"}</span>
           </div>

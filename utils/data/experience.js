@@ -3,7 +3,7 @@ const experiences = [
     title: "Software Engineer",
     company: "Andhus Technologies",
     duration: "July 2024 – Present",
-    techStack: [
+    tools: [
       "Jenkins", "Docker", "AWS Lightsail", "Git", "Python", "Linux", "SonarQube",
       "Selenium", "Java", "CI/CD", "Jira", "Confluence"
     ],
@@ -24,7 +24,7 @@ const experiences = [
     title: "Customer Service Attendant",
     company: "Valparaiso University (Client: Parkhurst Dining)",
     duration: "September 2022 – April 2023",
-    techStack: [
+    tools: [
       "Microsoft Excel", "Google Sheets", "Airtable", "SurveyMonkey",
       "Google Forms", "Amazon QuickSight", "Power BI"
     ],
@@ -39,7 +39,7 @@ const experiences = [
     title: "Software Engineer",
     company: "Wipro Limited (Client: 1-800-Flowers.com)",
     duration: "March 2021 – July 2022",
-    techStack: [
+    tools: [
       "Jenkins", "Jira", "OpenStack", "Maven", "Git", "Apache", "Tomcat",
       "Java/J2EE", "Docker", "Python", "Linux", "SonarQube", "Selenium", "CI/CD"
     ],
@@ -56,7 +56,7 @@ const experiences = [
     title: "Software Engineer Intern",
     company: "Wipro Limited",
     duration: "March 2020 – February 2021",
-    techStack: [
+    tools: [
       "Jenkins", "Docker", "Git", "Python", "Java", "Linux", "CI/CD"
     ],
 	image: '/png/wipro.jpeg',
@@ -67,3 +67,5 @@ const experiences = [
     ]
   }
 ];
+
+export { experiences };
