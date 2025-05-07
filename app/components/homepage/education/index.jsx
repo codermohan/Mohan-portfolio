@@ -3,7 +3,7 @@ import { educations } from "@/utils/data/educations";
 import Image from "next/image";
 import { BsPersonWorkspace } from "react-icons/bs";
 import lottieFile from '../../../assets/lottie/study.json';
-import AnimationLottie from "../../helper/animation-lottie";
+import AnimationLottie from "../../helper/animation-lottie-wrapper";
 import GlowCard from "../../helper/glow-card";
 
 function Education() {
