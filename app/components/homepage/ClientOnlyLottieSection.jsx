@@ -12,3 +12,5 @@ const ClientOnlyLottieSection = () => {
 };
 
 export default ClientOnlyLottieSection;
+
+
