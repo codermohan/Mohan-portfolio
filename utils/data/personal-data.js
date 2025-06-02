@@ -6,7 +6,7 @@ export const personalData = {
   description2: "I care about writing clean code, working as a team, and improving step by step. I’ve worked on websites, automation tools, and cloud-based projects, and I enjoy seeing my work come to life. I’m looking for new opportunities where I can learn more, take on challenges, and contribute to projects that make a real impact.",
   email: "mohankrishnan802@gmail.com",
   phone: "+12487989463",
-  address: "Valparaiso, IN, USA (Open to relocation)",
+  address: "Plainfield, IL, USA (Open to relocation)",
   github: "https://github.com/codermohan",
   facebook: '',
   linkedIn: "https://www.linkedin.com/in/mohannamburi/",
