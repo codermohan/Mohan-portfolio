@@ -1,25 +1,25 @@
 export const testimonials = [
     {
       id: 1,
-      name: "Nikhil Chakravarthy Mallela",
-      position: "Professor and Director of CWIT, UMBC",
-      message: "Neha is sharp, organized, and highly personable. Her completed Masters in Data Science has provided a number of relevant and useful skills in data management and analysis. While at CWIT, she also became proficient in several reporting tools that she used to help us make sense of our data. I highly recommend her for data science-related positions in any domain.",
+      name: "Peter Sedrak",
+      position: "Technology Solution Implementation Professional, Humana | Adjunct Associate Professor, VU",
+      message: "Mohan is a quick learner, organized, and a pleasure to work with. He completed his Master’s in Information Technology at Valparaiso University, where he built a strong foundation in software development and cloud technologies. Mohan excelled at programming, and he showed great skill in setting up reliable deployments. He’s now focused on software engineering, cloud, and DevOps roles, and I’m confident he’ll excel in any of these areas.",
       date: "Nov 19, 2024",
-      image: '/png/carolyn.jpeg'
+      image: '/png/PeterSedrak.jpeg'
     },
     {
         id: 2,
-        name: "Krishna Sai Avinash Potturi",
-        position: "Division Manager, Outreach, Office of NextGen | Adjunct Lecturer at UMBC",
-        message: "Neha is an exceptional student. She is continuously striving to learn new methods and algorithms and to stay competitive. She has several qualities that make her qualified for a data scientist position and responsibilities as a leader in an organization: excellent technical and programming skills, listening and execution capability, and a disposition to work well in a teamwork environment. I am delighted to recommend Neha for a data scientist position. She will be able to be operational quickly.",
+        name: "Nikhil Chakravarthy Mallela",
+        position: "Mts Software Engineer 3 at NetApp",
+        message: "Mohan is an exceptional friend and colleague. He is extremely skillful in software engineering, cloud, and DevOps technologies. During our time in college, we completed many assignments together, which helped us both grow technically and personally. His collaborative spirit, strong problem-solving skills, and dedication make him a fantastic team player. I highly recommend Mohan; he will excel in any software engineering or DevOps role.",
         date: "Sept 13, 2023",
-        image: '/png/tony.jpeg'
+        image: '/png/Nikhil.jpeg'
     },
     {
         id: 3,
-        name: "Venkata Sai Mohan Yedla",
-        position: "Research Software Engineer at Imaging Research Center, UMBC",
-        message: "Neha is incredibly hard working, diligent and insightful. She was a joy to work with on various data science research tasks at the Imaging Research Center, and was always exceeding expectations. I would welcome the opportunity to work with her again. If you have the chance to work with Neha, take it!",
+        name: "Krishna Sai Avinash Potturi",
+        position: "Full-stack Developer at Ford Motors private Limited",
+        message: "Mohan is incredibly hardworking, diligent, and technically adept. As my friend and collaborator, we worked together on numerous projects in college, and he consistently exceeded expectations. His expertise in DevOps, cloud computing, and software engineering, combined with his collaborative spirit and problem-solving mindset, makes him an outstanding team player. I would welcome the opportunity to work with him again, and any team would be fortunate to have him on board.",
         date: "Sept 13, 2023",
         image: '/png/tristan.jpeg'
     }
