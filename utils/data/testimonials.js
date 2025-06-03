@@ -21,7 +21,7 @@ export const testimonials = [
         position: "Full-stack Developer at Ford Motors private Limited",
         message: "Mohan is incredibly hardworking, diligent, and technically adept. As my friend and collaborator, we worked together on numerous projects in college, and he consistently exceeded expectations. His expertise in DevOps, cloud computing, and software engineering, combined with his collaborative spirit and problem-solving mindset, makes him an outstanding team player. I would welcome the opportunity to work with him again, and any team would be fortunate to have him on board.",
         date: "Sept 13, 2023",
-        image: '/png/tristan.jpeg'
+        image: '/png/Avinash.jpg'
     }
   
   ]
