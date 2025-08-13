@@ -232,3 +232,8 @@ git add .
 git commit -m "message"
 
 git push origin master
+
+
+
+
+# Text me on email mohankrishnan802@gmail.com if you get struck somewhere while checking/changing the project according to you.
