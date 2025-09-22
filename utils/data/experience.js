@@ -1,38 +1,23 @@
 const experiences = [
   {
-    title: "Software Engineer",
-    company: "Andhus Technologies",
-    duration: "July 2024 – Present",
+    title: "DevOps Engineer",
+    company: "I Verve Inc",
+    duration: "August 2022 – Present",
     tools: [
-      "Jenkins", "Docker", "AWS Lightsail", "Git", "Python", "Linux", "SonarQube",
+      "Jenkins", "CloudFormation", "CloudWatch", "Docker", "AWS Lightsail", "Git", "Python", "Linux", "SonarQube",
       "Selenium", "Java", "CI/CD", "Jira", "Confluence"
     ],
-	image: '/png/Andhustech.png',
+	image: '/png/IVerve.png',
     description: [
-      "Developed internal tools to monitor build health and deployment quality, reducing regressions by 30%.",
-      "Built and maintained CI/CD pipelines using Jenkins and Git, cutting release cycle time by 40%.",
-      "Integrated SonarQube quality gates, reducing code issues by 25%.",
-      "Automated infrastructure using Python and CloudFormation, reducing manual setup by 60%.",
+      "Designed and maintained CI/CD pipelines using Jenkins, GitLab CI, CircleCI, and GCP Cloud Build, improving deployment frequency by 40%.",
+      "Automated AWS (EC2, ECS, EKS, CloudWatch) and Azure (VMs, AKS) infrastructure provisioning using Terraform, CloudFormation, and Ansible, reducing manual setup time by 60%.",
+      "Implemented CloudWatch monitoring with custom metrics, logs, and alarms for proactive incident detection and faster resolution.",
+      "Built containerized microservices with Docker and Kubernetes, leveraging EKS and AKS clusters for scalable deployments.",
       "Managed AWS resources including Lightsail, implementing auto-scaling and security best practices.",
       "Led configuration of on-prem Windows servers using IIS, improving stability and uptime.",
-      "Administered and optimized PostgreSQL databases, ensuring zero-downtime migrations.",
+      "Administered and optimized Aurora databases, ensuring zero-downtime migrations.",
       "Automated DevOps tasks using Python and Prefect, reducing manual operations.",
       "Maintained Jira and Confluence for effective project tracking and documentation."
-    ]
-  },
-  {
-    title: "Customer Service Attendant",
-    company: "Valparaiso University (Client: Parkhurst Dining)",
-    duration: "September 2022 – April 2023",
-    tools: [
-      "Microsoft Excel", "Google Sheets", "Airtable", "SurveyMonkey",
-      "Google Forms", "Amazon QuickSight", "Power BI"
-    ],
-	image: '/png/valpo.png',
-    description: [
-      "Handled customer inquiries to enhance dining experience by 20%.",
-      "Used Excel to analyze survey data, increasing positive reviews by 30%.",
-      "Led training program development, improving efficiency and service by 25%."
     ]
   },
   {
